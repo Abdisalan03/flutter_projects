@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-          child: Text('Soo Muuji Comments'),
+          child: Text('Soo Muuji Comments...'),
           onPressed: () {
             showModalBottomSheet(
               context: context,
